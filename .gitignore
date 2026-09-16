@@ -8,7 +8,13 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+- dist
++ # dist
+pnpm run build
+git add dist
+git commit -m "distフォルダを追加"
+git push
+
 dist-ssr
 *.local
 
